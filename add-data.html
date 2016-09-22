@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>  
+    <head>
+        <title>Facebook Feed Decoder</title>
+        <!-- 
+        Author: Dustin Hesse
+        Version: 1.0.0
+        -->
+    <meta charset="utf-8">
+    </head>
+<body>
+
+<div style="width: 1000px; text-align: center; margin: 0 auto;">
+<h1> Facebook Feed Decoder</h1>
+<p>by Dustin Hesse</p>
+<form action="decoded-feed.php" method="post">
+Add JSON from <a href="https://developers.facebook.com/tools/explorer/" title="Tab zum Explorer öffnen" target="_blank">Graph API Explorer</a><br /><br />
+<textarea id="text" name="text" cols="100%" rows="10"></textarea> <br />
+JSON has likes and comments data
+<input type="checkbox" name="additional_data" value="value1"><br /><br />
+<input type="submit" value="Decode JSON">
+</form>
+</div>
+
+</body>
+</html>
